@@ -6,7 +6,7 @@
   "author": "blade-demon <xuziwei89@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "compile:sass": "node-sass ./sass/main.scss ./css/style.css",
+    "compile:sass": "node-sass ./sass/main.scss ./css/style.css -w",
     "serve:page": "live-server",
     "dev": "npm-run-all --parallel -c compile:sass serve:page"
   },
